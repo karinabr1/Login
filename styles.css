@@ -1,0 +1,38 @@
+body {
+	font-family: 'lato', sans-serif;
+}
+
+.flex-container {
+	background-color: #CCC9DC;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	padding: 10px
+}
+
+.box {
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 40vh;
+	width: 60vh;
+	gap: 10px;
+	padding: 30px;
+	flex-direction:column;
+	box-shadow: 5px 5px 5px 5px #424651; 
+}
+
+input {
+	padding: 5px;
+	width: 100%;
+}
+
+button {
+	background-color: #1B2A41;
+	color: white;
+	padding: 10px;
+	border: none;
+	width: 100%;
+}
